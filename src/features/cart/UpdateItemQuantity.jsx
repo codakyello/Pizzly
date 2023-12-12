@@ -1,6 +1,6 @@
 import Button from "../../ui/Button";
 import PropTypes from "prop-types";
-import { cartDEC, cartINC } from "./CartSlice";
+import { cartDEC, cartINC } from "./cartSlice";
 import { useDispatch, useSelector } from "react-redux";
 UpdateItemQuantity.propTypes = {
   pizzaId: PropTypes.number,

@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import Button from "../../ui/Button";
 import { useDispatch, useSelector } from "react-redux";
-import { cartAdd } from "../cart/CartSlice";
+import { cartAdd } from "../cart/cartSlice";
 import DeleteItem from "../cart/DeleteItem";
 import UpdateItemQuantity from "../cart/updateItemQuantity";
 
