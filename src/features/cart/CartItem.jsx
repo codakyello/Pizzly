@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { formatCurrency } from "../../utils/helpers";
 import DeleteItem from "./DeleteItem";
-import UpdateItemQuantity from "./updateItemQuantity";
+import UpdateItemQuantity from "./UpdateItemQuantity";
 
 CartItem.propTypes = {
   item: PropTypes.object,
