@@ -3,7 +3,7 @@ import Button from "../../ui/Button";
 import { useDispatch, useSelector } from "react-redux";
 import { cartAdd } from "../cart/cartSlice";
 import DeleteItem from "../cart/DeleteItem";
-import UpdateItemQuantity from "../cart/updateItemQuantity";
+import UpdateItemQuantity from "../cart/UpdateItemQuantity";
 
 MenuItem.propTypes = {
   pizza: PropTypes.object,
