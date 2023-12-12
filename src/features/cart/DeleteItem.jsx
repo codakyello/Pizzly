@@ -1,7 +1,7 @@
 import Button from "../../ui/Button";
 import { useDispatch } from "react-redux";
 import PropTypes from "prop-types";
-import { cartDEL } from "./CartSlice";
+import { cartDEL } from "./cartSlice";
 
 DeleteItem.propTypes = {
   pizzaId: PropTypes.any,

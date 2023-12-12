@@ -14,7 +14,7 @@ import { createOrder } from "../../services/apiRestaurant";
 import { useSelector, useDispatch } from "react-redux";
 import EmptyCart from "../cart/EmptyCart";
 import store from "../../store";
-import { cartCLEAR, getTotalPrice } from "../cart/CartSlice";
+import { cartCLEAR, getTotalPrice } from "../cart/cartSlice";
 import { useState } from "react";
 import { addUserAddress, getUser } from "../user/userSlice";
 
